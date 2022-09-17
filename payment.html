@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+    <div class="container">
+        
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Debit Card</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Credit Card</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Internet Banking</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Mobile Banking</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Google Pay</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Paytm</button>
+
+      </div>
+      
+      <div id="London" class="tabcontent">
+        <img class="img-responsive cc-img img_size" src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+  
+        <form>
+          <div class="form-group">
+              <label for="inputEmail4">Name on Card</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Card Holder Name">
+          </div>
+          <div class="form-group">
+              <label for="inputPassword4">Card Number</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Expiry Date</label>
+                <select class="form-control" name="Month"  id="month">
+                    <option value="">Month</option>
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+             
+              </div>
+              <div class="form-group">
+                <select class="form-control"  id="year">
+                  <option value="">Year </option>
+                  <option value="2030">2030</option>
+                  <option value="2029">2029</option>
+                  <option value="2028">2028</option>
+                  <option value="2027">2027</option>
+                  <option value="2026">2026</option>
+                  <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                </select>
+            
+              </div>
+              
+            <div class="form-group col-md-4 cvv">
+              <label for="">CVV Number </label>
+              <input type="password" class="form-control" style="width: 213px;"  maxlength="3" placeholder="***">
+                <span><a href="#">What is cvv number ?</a></span>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Pay Now</button>
+        </form>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+          
+        <img class="img-responsive cc-img img_size" src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+  
+        <form>
+          <div class="form-group">
+              <label for="inputEmail4">Card Number</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Card Number" maxlength="16">
+          </div>
+          <div class="form-group">
+              <label for="inputPassword4">Name on Card</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Card Holder Name">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Expiry Date</label>
+                <select class="form-control" name="Month"  id="month">
+                    <option value="">Month</option>
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+             
+              </div>
+              <div class="form-group">
+                <select class="form-control"  id="year">
+                  <option value="">Year </option>
+                  <option value="2030">2030</option>
+                  <option value="2029">2029</option>
+                  <option value="2028">2028</option>
+                  <option value="2027">2027</option>
+                  <option value="2026">2026</option>
+                  <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                </select>
+            
+              </div>
+              
+            <div class="form-group col-md-2 cvv">
+              <label for="">C V V</label>
+              <input type="text" class="form-control" style="width: 213px;"  maxlength="3" placeholder="***">
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Pay Now</button>
+        </form>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Sorry! page not available</h3>
+       
+      </div>
+      
+      <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
+         
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

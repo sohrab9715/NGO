@@ -1,0 +1,1348 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f0f0f0;
+    }
+    .header_section
+    {
+        padding: 0px 10px;
+    }
+    .nav
+    {
+        display: flex;
+        justify-content: space-between;   
+        font-family: 'montserrat';
+    }
+    .nav_logo
+    {
+      
+        width: 100%;   
+    } 
+    .nav_logo h5
+    {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-top: 5px;
+        font-size: 18px;
+    }
+    .nav_menu
+    {
+        display: flex;
+        align-items: center;  
+        margin-bottom: 5px;
+    }
+    .nav_menu a
+    {
+        font-size: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 8px;
+        color: black;
+    }
+    .nav_menu button
+    {
+        font-family: 'montserrat';
+        text-transform: uppercase;
+       background-color: rgb(20, 173, 15);
+       color: white;
+       border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .nav_menu button a
+    {
+        font-size: 10px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    .nav_menu button:hover
+    {
+        background-color: green;
+        color: white;
+        border: none;
+    }
+    .carousel-item
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 210px;
+    }
+    .carousel-item img
+    {
+        height: 220px;
+        width: 100%;
+    }
+    .carousel-item h5
+    {
+        font-size: 20px;
+    }
+    .carousel-item p
+    {
+        font-size: 13px;
+    }
+    .about_section
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+    .about_content
+    {
+       
+        padding: 10px 20px;
+        text-align: justify;
+    }
+    .about_content h1
+    {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .about_content p
+    {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .about_organization_picture img
+    {
+      
+        width: 360px;
+        height: 250px;
+     
+    }
+    .heading
+    {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 0px;
+        font-family: 'montserrat';
+        height: 50px;
+    
+    }
+   
+    .card_section
+    {
+        padding: 10px 40px;
+    }
+    .card
+    {
+        display: flex;
+        background-color: #fff;
+        border-radius: 6px !important;
+        margin-bottom: 5px;
+    }
+    .card_image
+    {
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .card_image img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .card_content
+    {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    .card_content h1
+    {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .card_content h5
+    {
+        font-size: 12px;
+        color: rgba(165, 161, 161, 0.89);
+    }
+    .card_content p
+    {
+       font-size: 12px;
+        padding: 15px 20px;
+        text-align:center;
+        color: rgba(0, 0, 0, 0.527);
+    }
+   
+    .goal_section_image img
+    {
+     margin-left: 80px;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .goal_section_contents
+    {
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .goal_section_contents h1
+    {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .goal_section_contents p
+    {
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .goal_section_contents button
+    {
+        border:none;
+        background-color: green;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: white;
+    }
+    .goal_section_contents a
+    {
+      text-decoration: none;
+      color:white
+    }
+    .goal_section_contents a:hover
+    {
+      text-decoration: none;
+      color: white;
+    }
+    footer
+    {
+      
+        padding: 10px 10px;
+      
+        background-color: rgba(19, 19, 126, 0.877);
+    }
+    .footer_content
+    {
+       
+        padding: 10px 10px;
+        color: wheat;
+    }
+    .footer_content h5
+    {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .footer_content p
+    {
+        font-size: 11px;
+        color: wheat;
+    }
+    .footer_content a
+    {
+        font-size: 11px;
+        color: wheat;
+    }
+    .copyright
+    {
+       text-align: center;
+       padding: 20px 0px;
+        background-color: black;
+    }
+    .copyright p
+    {
+        font-family: "Montserrat"; 
+        font-size: 10px;
+        color: white;
+     
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body
+    {
+        width: 100%;
+        height: 100%;
+    
+    }
+    .header_section
+    {
+        padding: 0px 20px;
+        background-color: #f0f0f0;
+    }
+    .nav
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+     
+        font-family: 'montserrat';
+    }
+    .nav_logo
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu a
+    {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 13px;
+        color: black;
+    }
+    .nav_menu button
+    {
+        font-family: 'montserrat';
+        text-transform: uppercase;
+      
+        padding: 12px 25px;
+       background-color: rgb(8, 8, 26);
+       color: white;
+       border: none;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+    .nav_menu button a
+    {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    .nav_menu button:hover
+    {
+        background-color: green;
+        color: white;
+        border: none;
+    }
+    .carousel-item
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 500px;
+    }
+    .carousel-item h5
+    {
+        font-size: 40px;
+    }
+    .carousel-item p
+    {
+        font-size: 20px;
+    }
+    .about_section
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .about_content
+    {
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .about_content h1
+    {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .about_content p
+    {
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .about_organization_picture img
+    {
+          
+            width: 300px;
+            height: 320px;
+    }
+    .heading
+    {
+        font-family: 'montserrat';
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px;
+        background-color: #f0f0f0;
+    }
+    .card_section
+    {
+        display: flex;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+    }
+    .card
+    {
+        display: flex;
+        width: 23%;
+        margin-left: 20px;
+        background-color: #fff;
+        border-radius: 6px !important;
+    }
+    .card_image
+    {
+        margin:0 auto;
+        margin-top: 5px;
+    }
+    .card_image img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .card_content
+    {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .card_content h1
+    {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .card_content h5
+    {
+        font-size: 15px;
+        color: rgba(165, 161, 161, 0.89);
+    }
+    .card_content p
+    {
+        padding: 15px 10px;
+        text-align:center;
+        color: rgba(0, 0, 0, 0.664);
+    }
+    .goal_section
+    {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+    }
+    .goal_section_image
+    {
+      position: relative;
+        width: 400px;
+    }
+    .goal_section_image img
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 300px;
+        width: 300px;
+    }
+    .goal_section_contents
+    {
+        padding: 40px 60px;
+        width: 800px;
+        height: 100%;
+    }
+    .goal_section_contents h1
+    {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .goal_section_contents p
+    {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.712);
+    }
+    .goal_section_contents button
+    {
+        border:none;
+        background-color: green;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: white;
+    }
+    .goal_section_contents a
+    {
+      text-decoration: none;
+      color:white
+    }
+    .goal_section_contents a:hover
+    {
+      text-decoration: none;
+      color: white;
+    }
+    footer
+    {
+        display: flex !important;
+        padding: 10px 20px;
+        height: 400px;
+        background-color: rgba(19, 19, 126, 0.877);
+    }
+    .footer_content
+    {
+        width: 23%;
+        padding: 10px 30px;
+        margin-left: 20px;
+        color: wheat;
+    }
+    .footer_content h5
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .footer_content p
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .footer_content a
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .copyright
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        background-color: black;
+    }
+    .copyright p
+    {
+        font-family: "Montserrat"; 
+        font-size: 13px;
+        color: white;
+     
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body
+    {
+        width: 100%;
+        height: 100%;
+    
+    }
+    .header_section
+    {
+        padding: 0px 20px;
+        background-color: #f0f0f0;
+    }
+    .nav
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+     
+        font-family: 'montserrat';
+    }
+    .nav_logo
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu a
+    {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 13px;
+        color: black;
+    }
+    .nav_menu button
+    {
+        font-family: 'montserrat';
+        text-transform: uppercase;
+      
+        padding: 12px 25px;
+       background-color: rgb(8, 8, 26);
+       color: white;
+       border: none;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+    .nav_menu button a
+    {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    .nav_menu button:hover
+    {
+        background-color: green;
+        color: white;
+        border: none;
+    }
+    .carousel-item
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 500px;
+    }
+    .carousel-item h5
+    {
+        font-size: 40px;
+    }
+    .carousel-item p
+    {
+        font-size: 20px;
+    }
+    .about_section
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        background-color: #f0f0f0;
+    }
+    .about_content
+    {
+        width: 800px;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .about_content h1
+    {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .about_content p
+    {
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .about_organization_picture img
+    {
+          
+            width: 300px;
+            height: 320px;
+    }
+    .heading
+    {
+        font-family: 'montserrat';
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px;
+        background-color: #f0f0f0;
+    }
+    .card_section
+    {
+        display: flex;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+    }
+    .card
+    {
+        display: flex;
+        width: 23%;
+        margin-left: 20px;
+        background-color: #fff;
+        border-radius: 6px !important;
+    }
+    .card_image
+    {
+        margin:0 auto;
+        margin-top: 5px;
+    }
+    .card_image img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .card_content
+    {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .card_content h1
+    {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .card_content h5
+    {
+        font-size: 15px;
+        color: rgba(165, 161, 161, 0.89);
+    }
+    .card_content p
+    {
+        padding: 15px 10px;
+        text-align:center;
+        color: rgba(0, 0, 0, 0.664);
+    }
+    .goal_section
+    {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+    }
+    .goal_section_image
+    {
+      position: relative;
+        width: 400px;
+    }
+    .goal_section_image img
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 300px;
+        width: 300px;
+    }
+    .goal_section_contents
+    {
+        padding: 40px 60px;
+        width: 800px;
+        height: 100%;
+    }
+    .goal_section_contents h1
+    {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .goal_section_contents p
+    {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.712);
+    }
+    .goal_section_contents button
+    {
+        border:none;
+        background-color: green;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: white;
+    }
+    .goal_section_contents a
+    {
+      text-decoration: none;
+      color:white
+    }
+    .goal_section_contents a:hover
+    {
+      text-decoration: none;
+      color: white;
+    }
+    footer
+    {
+        display: flex !important;
+        padding: 10px 20px;
+        height: 400px;
+        background-color: rgba(19, 19, 126, 0.877);
+    }
+    .footer_content
+    {
+        width: 23%;
+        padding: 10px 30px;
+        margin-left: 20px;
+        color: wheat;
+    }
+    .footer_content h5
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .footer_content p
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .footer_content a
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .copyright
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        background-color: black;
+    }
+    .copyright p
+    {
+        font-family: "Montserrat"; 
+        font-size: 13px;
+        color: white;
+     
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    width: 100%;
+    height: 100%;
+
+}
+.header_section
+{
+    padding: 0px 20px;
+    background-color: #f0f0f0;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+ 
+    font-family: 'montserrat';
+}
+.nav_logo
+{
+    display: flex;
+    align-items: center;  
+}
+.nav_menu
+{
+    display: flex;
+    align-items: center;  
+}
+.nav_menu a
+{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 13px;
+    color: black;
+}
+.nav_menu button
+{
+    font-family: 'montserrat';
+    text-transform: uppercase;
+  
+    padding: 12px 25px;
+   background-color: rgb(8, 8, 26);
+   color: white;
+   border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.nav_menu button a
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.nav_menu button:hover
+{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.carousel-item
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 500px;
+}
+.carousel-item h5
+{
+    font-size: 40px;
+}
+.carousel-item p
+{
+    font-size: 20px;
+}
+.about_section
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+  
+}
+.about_content
+{
+
+    width: 800px;
+    padding: 20px 30px;
+    text-align: justify;
+}
+.about_content h1
+{
+    font-size: 32px;
+    font-weight: 600;
+}
+.about_content p
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.527);
+}
+.about_organization_picture img
+{
+  
+    width: 400px;
+    height: 320px;
+  
+
+}
+.heading
+{
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f0f0f0;
+}
+.card_section
+{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+.card
+{
+    display: flex;
+    width: 23%;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 6px !important;
+}
+.card_image
+{
+    margin:0 auto;
+    margin-top: 5px;
+}
+.card_image img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.card_content
+{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    text-align: center;
+}
+.card_content h1
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+.card_content h5
+{
+    font-size: 15px;
+    color: rgba(165, 161, 161, 0.89);
+}
+.card_content p
+{
+    padding: 15px 10px;
+    text-align:center;
+    color: rgba(0, 0, 0, 0.664);
+}
+.goal_section
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.goal_section_image
+{
+  position: relative;
+    width: 400px;
+}
+.goal_section_image img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 300px;
+}
+.goal_section_contents
+{
+    padding: 40px 60px;
+    width: 800px;
+    height: 100%;
+}
+.goal_section_contents h1
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.goal_section_contents p
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.712);
+}
+.goal_section_contents button
+{
+    border:none;
+    background-color: green;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+}
+.goal_section_contents a
+{
+  text-decoration: none;
+  color:white
+}
+.goal_section_contents a:hover
+{
+  text-decoration: none;
+  color: white;
+}
+footer
+{
+    display: flex !important;
+    padding: 10px 20px;
+    height: 400px;
+    background-color: rgba(19, 19, 126, 0.877);
+}
+.footer_content
+{
+    width: 23%;
+    padding: 10px 30px;
+    margin-left: 20px;
+    color: wheat;
+}
+.footer_content h5
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer_content p
+{
+    font-size: 12px;
+    color: wheat;
+}
+.footer_content a
+{
+    font-size: 12px;
+    color: wheat;
+}
+.copyright
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: black;
+}
+.copyright p
+{
+    font-family: "Montserrat"; 
+    font-size: 13px;
+    color: white;
+ 
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body
+    {
+        width: 100%;
+        height: 100%;
+    
+    }
+    .header_section
+    {
+        padding: 0px 20px;
+        background-color: #f0f0f0;
+    }
+    .nav
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+     
+        font-family: 'montserrat';
+    }
+    .nav_logo
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu
+    {
+        display: flex;
+        align-items: center;  
+    }
+    .nav_menu a
+    {
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 13px;
+        color: black;
+    }
+    .nav_menu button
+    {
+        font-family: 'montserrat';
+        text-transform: uppercase;
+      
+        padding: 12px 25px;
+       background-color: rgb(8, 8, 26);
+       color: white;
+       border: none;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+    .nav_menu button a
+    {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    .nav_menu button:hover
+    {
+        background-color: green;
+        color: white;
+        border: none;
+    }
+    .carousel-item
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 500px;
+    }
+    .carousel-item h5
+    {
+        font-size: 40px;
+    }
+    .carousel-item p
+    {
+        font-size: 20px;
+    }
+    .about_section
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        background-color: #f0f0f0;
+    }
+    .about_content
+    {
+        width: 800px;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .about_content h1
+    {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .about_content p
+    {
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .about_organization_picture img
+    {
+          
+            width: 400px;
+            height: 320px;
+    }
+    .heading
+    {
+        font-family: 'montserrat';
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px;
+        background-color: #f0f0f0;
+    }
+    .card_section
+    {
+        display: flex;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+    }
+    .card
+    {
+        display: flex;
+        width: 23%;
+        margin-left: 20px;
+        background-color: #fff;
+        border-radius: 6px !important;
+    }
+    .card_image
+    {
+        margin:0 auto;
+        margin-top: 5px;
+    }
+    .card_image img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .card_content
+    {   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .card_content h1
+    {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .card_content h5
+    {
+        font-size: 15px;
+        color: rgba(165, 161, 161, 0.89);
+    }
+    .card_content p
+    {
+        padding: 15px 10px;
+        text-align:center;
+        color: rgba(0, 0, 0, 0.664);
+    }
+    .goal_section
+    {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+    }
+    .goal_section_image
+    {
+      position: relative;
+        width: 400px;
+    }
+    .goal_section_image img
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 300px;
+        width: 300px;
+    }
+    .goal_section_contents
+    {
+        padding: 40px 60px;
+        width: 800px;
+        height: 100%;
+    }
+    .goal_section_contents h1
+    {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .goal_section_contents p
+    {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.712);
+    }
+    .goal_section_contents button
+    {
+        border:none;
+        background-color: green;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: white;
+    }
+    .goal_section_contents a
+    {
+      text-decoration: none;
+      color:white
+    }
+    .goal_section_contents a:hover
+    {
+      text-decoration: none;
+      color: white;
+    }
+    footer
+    {
+        display: flex !important;
+        padding: 10px 20px;
+        height: 400px;
+        background-color: rgba(19, 19, 126, 0.877);
+    }
+    .footer_content
+    {
+        width: 23%;
+        padding: 10px 30px;
+        margin-left: 20px;
+        color: wheat;
+    }
+    .footer_content h5
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .footer_content p
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .footer_content a
+    {
+        font-size: 12px;
+        color: wheat;
+    }
+    .copyright
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        background-color: black;
+    }
+    .copyright p
+    {
+        font-family: "Montserrat"; 
+        font-size: 13px;
+        color: white;
+     
+    }
+    
+}
